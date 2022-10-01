@@ -1,10 +1,14 @@
 
+import sys
 
-numbers = [5, 20, 30, 30, 50]
-delval = int(input('Enter the deletion value: '))
+num1 = list(map(int, input().split()))
+num2 = list(map(int, input().split()))
 
+if len(num1) > len(num2):
+	print ('False')
+	sys.exit(0)
 # ******************************
 # Make your Code
 # ******************************
 
-print (numbers)
+# print ('True') or ('False')
